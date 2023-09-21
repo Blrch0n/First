@@ -80,10 +80,23 @@
     background-color: #f4f4f4;
     color: #222222;
 }
-@media  screen and (max-width:(1052px)) {
+.part1{
+    
+}
+@media screen and (max-width:1052px) {
+    .container{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
     .button p{
-        width: fit-content;
-        height: fit-content;
+        width: 131.47px;
+        height: 67px;
+    }
+    .button .text2{
+        width: 122.53px;
+        height: 67px;
     }
 }
 
